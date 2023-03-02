@@ -41,7 +41,7 @@ dependencies {
     implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.5.0'
     testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.11.1'
     implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '3.0.0'
-    implementation group: 'org.apache.avro', name: 'avro', version: '1.11.0'
+    implementation group: 'org.apache.avro', name: 'avro', version: '1.11.1'
     implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-avro', version: '2.12.6'
     implementation group: 'io.confluent', name: 'kafka-schema-registry-client', version: '6.2.0'
     implementation group: 'io.confluent', name: 'kafka-avro-serializer', version: '6.2.9'
