@@ -12,7 +12,7 @@ buildscript {
 plugins {
     id 'java'
     id "com.github.davidmc24.gradle.plugin.avro" version "1.6.0"
-    id 'com.avast.gradle.docker-compose' version '0.16.11'
+    id 'com.avast.gradle.docker-compose' version '0.16.12'
 }
 
 group 'org.example'
