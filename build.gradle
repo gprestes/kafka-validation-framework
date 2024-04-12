@@ -47,8 +47,8 @@ dependencies {
     implementation group: 'io.confluent', name: 'kafka-avro-serializer', version: '7.6.1'
     testCompileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.32'
     testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.32'
-    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.12'
-    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.12'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.13'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.13'
     implementation group: 'tech.grasshopper', name: 'extentreports-cucumber7-adapter', version: '1.14.0'
     testImplementation group: 'io.cucumber', name: 'cucumber-picocontainer', version: '7.16.1'
 
