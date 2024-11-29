@@ -31,7 +31,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.11.3'
 
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.18.1'
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.18.1'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.18.2'
     testImplementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.18.1'
     implementation('org.apache.commons:commons-collections4:4.4')
     implementation('commons-collections:commons-collections:3.2.2')
