@@ -11,6 +11,9 @@
       "automerge": true
     }
   ],
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
+  "separateMinorPatch": true,
   "extends": [
     "config:recommended"
   ]
