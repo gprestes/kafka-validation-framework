@@ -43,7 +43,7 @@ dependencies {
     implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '8.0.0-ce'
     implementation group: 'org.apache.avro', name: 'avro', version: '1.12.0'
     implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-avro', version: '2.20.0'
-    implementation group: 'io.confluent', name: 'kafka-schema-registry-client', version: '8.0.0'
+    implementation group: 'io.confluent', name: 'kafka-schema-registry-client', version: '8.0.1'
     implementation group: 'io.confluent', name: 'kafka-avro-serializer', version: '8.0.1'
     testCompileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.42'
     testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.42'
