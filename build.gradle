@@ -30,9 +30,9 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.4'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.11.4'
 
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.20.0'
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.20.0'
-    testImplementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.20.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.20.1'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.20.1'
+    testImplementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.20.1'
     implementation('org.apache.commons:commons-collections4:4.5.0')
     implementation('commons-collections:commons-collections:3.2.2')
     implementation('org.apache.commons:commons-lang3:3.19.0')
@@ -42,7 +42,7 @@ dependencies {
     testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.31.0'
     implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '8.1.0-ce'
     implementation group: 'org.apache.avro', name: 'avro', version: '1.12.1'
-    implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-avro', version: '2.20.0'
+    implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-avro', version: '2.20.1'
     implementation group: 'io.confluent', name: 'kafka-schema-registry-client', version: '8.1.0'
     implementation group: 'io.confluent', name: 'kafka-avro-serializer', version: '8.1.0'
     testCompileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.42'
