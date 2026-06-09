@@ -52,6 +52,7 @@ dependencies {
     implementation group: 'tech.grasshopper', name: 'extentreports-cucumber7-adapter', version: '1.14.0'
     testImplementation group: 'io.cucumber', name: 'cucumber-picocontainer', version: '7.34.3'
 
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 
