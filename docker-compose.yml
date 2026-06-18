@@ -106,7 +106,7 @@ services:
       PORT: 9021
 
   ksqldb-server:
-    image: confluentinc/cp-ksqldb-server:8.2.1
+    image: confluentinc/cp-ksqldb-server:8.2.2
     hostname: ksqldb-server
     container_name: ksqldb-server
     depends_on:
